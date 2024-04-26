@@ -4,8 +4,8 @@ from flask import (
 import logging
 from werkzeug.exceptions import abort
 
-from flaskr.auth import login_required
-from flaskr.db import get_db
+from flaskr_ld.auth import login_required
+from flaskr_ld.db import get_db
 from ldclient import Context
 from ldclient.config import Config
 import os
