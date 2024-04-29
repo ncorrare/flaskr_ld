@@ -1,6 +1,6 @@
 [project]
 name = "flaskr-ld"
-version = "1.0.8"
+version = "1.0.9"
 description = "The basic blog app built in the Flask tutorial, with a LauchDarkly feature flag for creating new posts."
 dependencies = [
     "flask",
